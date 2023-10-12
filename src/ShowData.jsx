@@ -19,7 +19,7 @@ const ShowData = () => {
       }
     });
   }, []);
-  console.log(data);
+
   // delete
   const handleDelete = async (id) => {
     try {
